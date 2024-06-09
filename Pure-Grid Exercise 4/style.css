@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    margin: 1px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-container{
+    display: flex;
+    gap: 30px;
+}
+
+.img-container .text-div p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.text-container button{
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: rgb(63, 128, 233);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-container button:hover{
+    background-color: rgb(28, 107, 233);
+}
+
+span{
+    color: rgb(98, 92, 92);
+}
